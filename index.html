@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .menu-item span {
+            flex: 1;
+        }
+
+        .menu-item.price {
+            min-width: 70px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel Menu</h1>
+    </header>
+
+    <section>
+        <h2>Tea and Coffee</h2>
+        <div class="menu-item">
+            <span>Filter coffee</span>
+            <span class="price">$2.90</span>
+        </div>
+        <div class="menu-item">
+            <span>Nescafe</span>
+            <span class="price">$4.90</span>
+        </div>
+        <div class="menu-item">
+            <span>Greek Tea</span>
+            <span class="price">$2.98</span>
+        </div>
+        <div class="menu-item">
+            <span>Green Tea</span>
+            <span class="price">$3.00</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Desserts</h2>
+        <div class="menu-item">
+            <span>Fizzy Orange</span>
+            <span class="price">$3.90</span>
+        </div>
+        <div class="menu-item">
+            <span>Fizzy Cherry</span>
+            <span class="price">$3.99</span>
+        </div>
+        <div class="menu-item">
+            <span>Water 500ml</span>
+            <span class="price">$1.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Other soft drinks 330ml</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>More Desserts</h2>
+        <div class="menu-item">
+            <span>Cheese cake</span>
+            <span class="price">$4.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Brownie</span>
+            <span class="price">$4.00</span>
+        </div>
+        <div class="menu-item">
+            <span>Greek Yogurt with honey</span>
+            <span class="price">$4.00</span>
+        </div>
+    </section>
+</body>
+</html>
